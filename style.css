@@ -26,9 +26,9 @@
     background-color: aquamarine;
 }
 
-ul {
-    font-size: 4vw;
-    text-align: center;
+.list {
+    font-size: 5vw;
+    text-align: left;
 }
 
 .cinpic {
