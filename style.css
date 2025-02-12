@@ -1,9 +1,34 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+.title {
+    text-align: center;
+    padding: 1px;
+    border: 2px solid blue;
+    /*margin-left: 10vw;
+    margin-right: 10vw;
+    */
+    margin-inline: 35vw;
+}
+
+.centerpic {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
 .lasagna {
     background-color: aquamarine;
 }
 
 ul {
     font-size: 4vw;
+    text-align: center;
 }
 
 .cinpic {
