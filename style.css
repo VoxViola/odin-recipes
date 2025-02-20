@@ -5,6 +5,20 @@
     border: 0;
 }
 
+.first-recipe {
+    display: inline;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 35px;
+}
+
+
+.list {
+    display: inline;
+    
+}
+
 .title {
     text-align: center;
     padding: 1px;
@@ -26,11 +40,55 @@
     background-color: aquamarine;
 }
 
+/*
 .list {
     font-size: 5vw;
     text-align: left;
 }
+*/
 
 .cinpic {
     width: 35vw;
+}
+
+#key-lime {
+    display: block;
+    color: blue;
+    font-size: 35px;
+    /*
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-t: 40px;
+    */
+    margin: 25px 20px;
+    text-align: center;
+    background-color: lightyellow;
+}
+
+.mid-list,
+.first-recipe {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: left;
+    margin: right;
+}
+
+#list {
+    display: flex;
+    color: blue;
+    font-size: 35px;
+    /*
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-t: 40px;
+    
+    margin: 25px 20px;
+    */
+    text-align: center;
+    background-color: lightyellow;
+    justify-content: center;
+    align-items: center;
+    margin: 25px 20px;
+    padding: auto;
 }
